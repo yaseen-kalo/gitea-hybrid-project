@@ -2,7 +2,11 @@
   "name": "gitea-hybrid-project",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test:headed": "playwright test --headed",
+    "test:headless": "playwright test --headless"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
